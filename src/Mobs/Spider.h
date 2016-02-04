@@ -1,16 +1,16 @@
 
 #pragma once
 
-#include "AggressiveMonster.h"
+#include "PassiveAggressiveMonster.h"
 
 
 
 
 
 class cSpider :
-	public cAggressiveMonster
+	public cPassiveAggressiveMonster
 {
-	typedef cAggressiveMonster super;
+	typedef cPassiveAggressiveMonster super;
 
 public:
 	cSpider(void);

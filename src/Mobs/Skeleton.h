@@ -1,16 +1,16 @@
 
 #pragma once
 
-#include "AggressiveMonster.h"
+#include "PassiveAggressiveMonster.h"
 
 
 
 
 
 class cSkeleton :
-	public cAggressiveMonster
+	public cPassiveAggressiveMonster
 {
-	typedef cAggressiveMonster super;
+	typedef cPassiveAggressiveMonster super;
 
 public:
 	cSkeleton(bool IsWither);
